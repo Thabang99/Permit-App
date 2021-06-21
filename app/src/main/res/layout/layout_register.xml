@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="8dp"
+    android:layout_marginEnd="24dp"
+    android:layout_marginStart="24dp"
+    android:layout_marginTop="8dp"
+    android:orientation="vertical"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/loginHeader"
+        android:text="Register"
+        android:layout_marginTop="@dimen/loginViewsMargin"/>
+
+
+        <EditText
+            android:id="@+id/fullnamesEdt"
+            style="@style/modifiedEditText"
+            android:hint="@string/login_name_hint"
+            android:inputType="textPersonName"
+            android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/surnameEdt"
+        style="@style/modifiedEditText"
+        android:hint="Surname"
+        android:inputType="textPersonName"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/phoneNoEdt"
+        style="@style/modifiedEditText"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/dobEdt"
+        style="@style/modifiedEditText"
+        android:hint="Date Of Birth (dd / mm / yyyy)"
+        android:inputType="textPersonName"
+        android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/idEdt"
+        style="@style/modifiedEditText"
+        android:hint="Personal Identification Number"
+        android:inputType="phone"
+        android:maxLines="1" />
+
+
+        <EditText
+            android:id="@+id/nationalityEdt"
+            style="@style/modifiedEditText"
+            android:hint="Nationality"
+            android:maxLines="1" />
+
+    <EditText
+        android:id="@+id/addressEdt"
+        style="@style/modifiedEditText"
+        android:hint="Address"
+        android:inputType="textPersonName"
+        android:maxLines="1" />
+
+
+        <EditText
+            android:id="@+id/emailRegEdt"
+            style="@style/modifiedEditText"
+            android:hint="@string/login_email_hint"
+            android:inputType="textEmailAddress"
+            android:maxLines="1" />
+
+
+
+
+        <EditText
+            android:id="@+id/passwordRegEdt"
+            style="@style/modifiedEditText"
+            android:hint="@string/login_password_hint"
+            android:inputType="textPassword"
+            android:maxLines="1" />
+
+
+    <Button
+        android:id="@+id/signUpBtn"
+        style="@style/loginButton"
+        android:text="Signup"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/loginViewsMargin"/>
+
+    <TextView
+        android:id="@+id/toLoginTv"
+        style="@style/parent"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="@color/primaryTextColor"
+        android:text="@string/login_signup_hint"
+        android:layout_marginTop="@dimen/loginViewsMargin"/>
+
+</LinearLayout>

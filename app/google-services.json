@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "341840378217",
+    "firebase_url": "https://comp341-exam.firebaseio.com",
+    "project_id": "comp341-exam",
+    "storage_bucket": "comp341-exam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341840378217:android:1bf97db469a8f20e3ae5f8",
+        "android_client_info": {
+          "package_name": "bw.ac.biust.csis.st17001132.comp341"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341840378217-d7hej380jt7th27rkon2n47ma6m303p6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUoLrXYTkJa_yQdd39KyG3GSFvXJUX8TA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "341840378217-d7hej380jt7th27rkon2n47ma6m303p6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

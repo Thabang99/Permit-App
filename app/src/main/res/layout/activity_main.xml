@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@android:color/holo_blue_light">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="HOME DASHBOARD"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <EditText
+            android:id="@+id/departureZone"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:hint="Departure Zone"/>
+
+        <EditText
+            android:id="@+id/departureLocation"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:hint="Departure Location"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <EditText
+            android:id="@+id/destinationZone"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:hint="Destination Zone"/>
+
+        <EditText
+            android:id="@+id/destinationLocation"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:hint="Destination Location"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+        <EditText
+            android:id="@+id/purposeEdt"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:hint="Personal/Work"/>
+
+        <EditText
+            android:id="@+id/reasonEdt"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:hint="Reasons"/>
+
+    </LinearLayout>
+
+
+
+
+    <Button
+        android:id="@+id/applyPermitBtn"
+        style="@style/loginButton"
+        android:text="APPLY"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/loginViewsMargin"/>
+
+
+
+    <TextView
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PERMIT STATUS"
+        android:gravity="center"
+        android:textColor="@android:color/holo_red_dark"/>
+
+
+
+    <Button
+        android:id="@+id/checkPermitBtn"
+        style="@style/loginButton"
+        android:text="CHECK"
+        android:layout_gravity="center"
+        android:onClick="check"
+        android:layout_marginTop="10dp"
+        />
+
+    <Button
+       android:background="@drawable/logout"
+        android:layout_gravity="center"
+        android:onClick="signOut"
+        android:layout_marginTop="50dp"
+        android:layout_height="30dp"
+        android:layout_width="30dp" />
+
+
+</LinearLayout>
